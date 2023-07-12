@@ -4,10 +4,6 @@
 	Uncomment the sections to have the styling take effect.
 */
 
-header {
-
-}
-
 header > h1 {
     color: darkblue;
 }
