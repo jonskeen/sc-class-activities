@@ -1,0 +1,89 @@
+html {
+    background-color: darkslategrey;
+}
+
+body {
+    font-size: 20px;
+}
+
+.box-container {
+    position: relative;
+    border: solid 3px deeppink;
+    width: 200px;
+    height: 150px;
+    /*font-size: 40px;*/
+}
+
+
+.box {
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+}
+
+.box-container .box {
+    font-style: italic;
+}
+
+
+.primary {
+    background-color: lightcoral;
+    z-index: 1;
+}
+
+.secondary {
+    background-color: cornflowerblue;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 2em;
+}
+
+a {
+    color: yellowgreen;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:focus {
+    color: darkorange;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
+
+
+.tertiary {
+    top: 0;
+    right: 0;
+    background-color: orchid;
+}
+
+.primary,
+.tertiary {
+    border: solid 2px black;
+}
+
+
+.black {
+    color: black;
+}
+
+.outer li:nth-child(3n + 1) {
+    font-size: 50px;
+}
+
+
+
+

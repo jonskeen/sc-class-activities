@@ -1,0 +1,11 @@
+const myFunction = () => {
+  while (true) {
+    console.log("Yooooo");
+  }
+
+
+    console.log("after the loop");
+    
+}
+
+myFunction();

@@ -1,0 +1,58 @@
+* {
+    background-color: darkcyan;
+}
+
+.box {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.primary {
+    background-color: lightcoral;
+    z-index: 2;
+}
+
+.secondary {
+    background-color: cornflowerblue;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+p {
+    font-size: 24pt;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkorange;
+    padding-left: 50px;
+}
+
+.cool-para {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#paragraph-1 {
+    color: yellow;
+
+    margin: 50px 0 200px 50px;
+}
+
+li.favorite {
+    font-style: italic;
+}
+
+.class1,
+.class2 {
+    color: black;
+}
+
+
+.unordered li.favorite {
+    color: hotpink;
+}
