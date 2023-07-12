@@ -1,3 +1,12 @@
+// uncomment for adding nav bar
+/*document.querySelector(".fa-bars").addEventListener("click", () => {
+  document.querySelector("nav > ul").classList.toggle("hidden--mobile");
+});*/
+
+
+
+
+
 const form = document.querySelector("form");
 form.addEventListener("submit", event => {
   event.preventDefault();

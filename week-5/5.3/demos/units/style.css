@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 20px;
+}
+
+.page {
+    background: lightcyan;
+    padding: 0 50px;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    height: 100vh;
+    padding: 50px;
+}
+
+.box {
+    min-height: 50px;
+    min-width: 10px;
+    border: solid 2px black;
+    margin-bottom: 20px;
+}
+
+.px {
+    width: 50px;
+}
+
+.em {
+    font-size: 20px;
+    width: 3em;
+}
+
+.rem {
+    width: 3rem;
+}
+
+.vw {
+    width: 20vw;
+}
+
+.vh {
+    width: 20vh;
+}
+
+.percent {
+    width: 33%;
+}

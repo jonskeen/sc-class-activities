@@ -1,0 +1,58 @@
+:root {
+    --landscape-url: url("./assets/landscape.jpg");
+    --portrait-url: url("./assets/portrait.jpg");
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 20px;
+}
+
+.page {
+    padding: 50px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.no-repeat .box {
+    background-repeat: no-repeat;
+}
+
+.box {
+    width: 33.3333%;
+    border: solid 2px black;
+    margin-bottom: 20px;
+
+    color: white;
+    text-shadow: black 3px 0;
+}
+
+.landscape {
+    aspect-ratio: 16 / 9;
+    background-image: var(--landscape-url);
+}
+
+.portrait {
+    width: 20%;
+    aspect-ratio: 9 / 16;
+    background-image: var(--portrait-url);
+}
+
+.cover {
+    background-size: cover;
+}
+
+.contain {
+    background-size: contain;
+}

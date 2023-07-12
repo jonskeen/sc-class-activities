@@ -4,9 +4,36 @@
 	Uncomment the sections to have the styling take effect.
 */
 
+/* uncomment for google fonts */
+/*body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Merriweather", serif;
+}*/
+
+/* uncomment for hero */
+/*
+header {
+    background-image: url(https://source.unsplash.com/random/800x600);
+    background-size: cover;
+    height: 100vh;
+}
+*/
+
 header > h1 {
     color: darkblue;
 }
+
+/* uncomment for border radius */
+/*
+header > .cta {
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
+*/
 
 body > form {
     margin: 2em;
@@ -49,6 +76,42 @@ body > form {
 	flex-direction: column;
   }
 }
+
+/* uncomment for adding the nav bar */
+/*
+@media (min-width: 550px) {
+    nav > .fa-bars {
+        display: none;
+    }
+}
+*/
+
+/* uncomment for adding nav bar */
+/* in HTML: <ul class="hidden--mobile"> */
+/*
+@media (max-width: 550px) {
+    .hidden--mobile {
+        display: none;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
